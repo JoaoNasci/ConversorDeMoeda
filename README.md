@@ -7,7 +7,7 @@ Projeto do desafio de conversor de moedas, visando a prática com a linguagem Ja
 ## 🔨 Funcionalidades do projeto
 
 - `Funcionalidade 1` `Escolha`: Tem como obijetivo a pessoa escolher a moeda que deseja ser convertida para dólar, com as opções limitaas.
-- `Funcionalidade 2` `Lista`: São todas as conversões feitas no laço de repetição.     https://github.com/JoaoNasci/ConversorDeMoeda/tree/37e38461d23cc62dd1bd4e6e3875b19885257ca5/src
+- `Funcionalidade 2` `Lista`: São todas as conversões feitas no laço de repetição.     
 
 ## ✔️ Técnicas e tecnologias utilizadas
 

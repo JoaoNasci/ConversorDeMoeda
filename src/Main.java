@@ -1,11 +1,11 @@
-import javax.sound.midi.Soundbank;
-import java.util.ArrayList;
-import java.util.List;
+
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+
+
     public static void main(String[] args) {
         Scanner tec = new Scanner(System.in);
         double valor;
@@ -16,7 +16,7 @@ public class Main {
         byte opcao = 0;
         while (opcao != 7){
             String md = """     
-                            ***** ESCOLHA DENTRE ESSAS OPÇÕES *****
+                            \n***** ESCOLHA DENTRE ESSAS OPÇÕES *****
                             1 - Dólar Americano para Peso Agentino
                             2 - Peso Agentino para Dólar Americano
                             3 - Dólar Americano para Real Brasileiro
@@ -76,6 +76,11 @@ public class Main {
                     System.out.println("O valor "+ valor +"["+moeda.base_code()+"]"+" corresponde ao valor final: "
                             + moeda.conversion_result()+ "["+ moeda.target_code()+"]");
                     historicoMoeda.addMoedas(moeda);
+                    break;
+                case 7:
+                    break;
+                default:
+                    System.out.println("Opção invalida!");
                     break;
             }
 
